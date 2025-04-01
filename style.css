@@ -1,0 +1,99 @@
+/* layout dos cards */
+.card {
+    border-radius: 8px; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Ajuste para as imagens*/
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+}
+
+/* barra de pesquisa */
+.search-txt {
+    width: 250px; 
+    padding: 10px; 
+    border-radius: 20px; 
+    border: 2px solid #ccc; 
+    box-shadow: none; 
+}
+
+.search-txt:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /
+}
+
+/* links das redes sociais */
+a.btn.btn-link {
+    color: #007bff; 
+    font-size: 1.1rem; 
+    text-decoration: none; 
+}
+
+a.btn.btn-link:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+    text-decoration: underline; 
+}
+
+/*cabeçalho */
+.header h1 {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    background-color: rgb(255, 199, 0);
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+.navbar li a {
+    font-size: 1.1rem; 
+    color: #333; 
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #007bff; /* Cor ao passar o mouse*/
+}
+
+/* Ajustes para o rodapé */
+.footer {
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+    color: #333;
+    padding: 20px 0;
+}
+
+/* barra de redes sociais */
+p.background-primary {
+    background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(0,153,255,1) 100%);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/*footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #6c757d;
+}
+
